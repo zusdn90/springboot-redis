@@ -1,0 +1,23 @@
+server:
+  port: 8084
+logging:
+  level:
+    root: warn
+    com.rest.api: debug
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties.hibernate:
+      hbm2ddl.auto: update
+      format_sql: true
+    showSql: true
+    generate-ddl: true
+  redis:
+    port: 6379
+    host: 127.0.0.1
+  profiles:
+    active: local
