@@ -1,7 +1,7 @@
 # Springboot-Redis 구성 실습
 
 ### 0. 개요
-- Spring Redis 구성 실습
+- Spring Redis + RedisCluster 구성
 
 ### 1. 실습 환경
 - Java 8~11
